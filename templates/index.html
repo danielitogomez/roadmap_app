@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Roadmap</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+            <header class="devops-header">
+                <h1>Minimal DevOps/SRE Roadmap</h1>
+            </header>
+        
+        <header>
+            <nav>
+                <!-- Add more social network icons as needed -->
+                <a href="https://github.com/danielitogomez" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+            </nav>
+        </header>
+
+    <div class="roadmap">
+        {% for category, items in roadmap.items() %}
+            <div class="category">
+                <h2>{{ category }}</h2>
+                <ul>
+                    {% for item_name, links_json in items.items() %}
+                        <li class="roadmap-item" data-links="{{ links_json }}">{{ item_name }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+        <div id="linkList"></div>
+    </div>
+
+
+    <!-- Footer with copyright notice -->
+    <footer>
+        <p>&copy; {{ current_year }} </p>
+    </footer>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

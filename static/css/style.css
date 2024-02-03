@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+.roadmap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+.category h2 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+.category ul {
+    list-style: none;
+    padding: 0;
+}
+.category li {
+    cursor: pointer;
+    background-color: #e9e9e9;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+.category li:hover {
+    background-color: #dcdcdc;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f8f8; /* Adjust as needed */
+}
+
+.social-icon {
+    color: #333; /* Adjust icon color as needed */
+    font-size: 24px; /* Adjust icon size as needed */
+    margin: 0 10px; /* Adjust spacing as needed */
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Adjust hover color as needed */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8; /* Adjust background color as needed */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* DevOps Header Styles */
+.devops-header {
+    background-color: #007bff; /* A pleasant blue, feel free to change it */
+    text-align: center;
+    padding: 40px 0; /* Adjust the padding to increase/decrease the header size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a layered effect */
+}
+
+.devops-header h1 {
+    color: white; /* White text for contrast */
+    font-size: 2.5em; /* Large, eye-catching font size */
+    margin: 0; /* Remove default margin */
+    font-weight: bold; /* Bold font for impact */
+    text-transform: uppercase; /* Uppercase text for a modern look */
+    letter-spacing: 2px; /* Spacing out letters for style */
+}
