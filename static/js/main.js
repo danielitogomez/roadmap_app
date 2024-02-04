@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.roadmap-item').forEach(function(item) {
         item.addEventListener('click', function() {
             var dataLinks = JSON.parse(this.getAttribute('data-links').replace(/&quot;/g, '\"'));
+            console.log(dataLinks);  // Check what dataLinks contains after parsing
             openSidebar(dataLinks);
         });
     });
