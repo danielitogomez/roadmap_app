@@ -20,7 +20,7 @@ function openSidebar(links) {
         linkList.appendChild(anchor);
     });
 
-    document.getElementById("sidebar").style.width = "300px";
+    document.getElementById("sidebar").style.width = "250px";
 }
 
 function closeSidebar() {
