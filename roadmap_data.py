@@ -45,8 +45,8 @@ roadmap = {
             ],
         },
         '6-Cloud Providers': {
-            'Kubernetes': [
-                {'name': 'AWS', 'url': 'https://aws.amazon.com/training/digital/'},
+            'AWS': [
+                {'name': 'AWS training', 'url': 'https://aws.amazon.com/training/digital/'},
             ],
         },
     }
