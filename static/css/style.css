@@ -94,10 +94,11 @@ footer {
 
 /* DevOps Header Styles */
 .devops-header {
-    background-color: #007bff; /* A pleasant blue, feel free to change it */
+    background: url('/static/css/starts.png') no-repeat center center;
+    background-size: cover;
     text-align: center;
-    padding: 40px 0; /* Adjust the padding to increase/decrease the header size */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a layered effect */
+    padding: 40px 0;
+    color: white;
 }
 
 .devops-header h1 {

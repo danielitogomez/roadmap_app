@@ -15,7 +15,7 @@ def index():
     for category, items in temp_roadmap.items():
         for item, links in items.items():
             json_string = json.dumps(links)  # Convert list of dicts to a JSON string
-            print(f"JSON for {item}: {json_string}")  # Print the specific JSON string
+            #print(f"JSON for {item}: {json_string}")  # Print the specific JSON string
             items[item] = json_string
 
     return render_template('index.html', roadmap=temp_roadmap, current_year=current_year)

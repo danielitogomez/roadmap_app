@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.roadmap-item').forEach(function(item) {
         item.addEventListener('click', function() {
             var dataLinks = JSON.parse(this.getAttribute('data-links').replace(/&quot;/g, '\"'));
-            console.log(dataLinks);  // Check what dataLinks contains after parsing
+            //console.log(dataLinks);  // Check what dataLinks contains after parsing
             openSidebar(dataLinks);
         });
     });
@@ -20,7 +20,7 @@ function openSidebar(links) {
         linkList.appendChild(anchor);
     });
 
-    document.getElementById("sidebar").style.width = "250px";
+    document.getElementById("sidebar").style.width = "300px";
 }
 
 function closeSidebar() {
