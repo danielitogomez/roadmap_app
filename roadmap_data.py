@@ -10,12 +10,13 @@ roadmap = {
         },
         '2-Scripting': {
             'Bash Scripting': [
-                {'name': 'Bash Beginners', 'url': 'https://kodekloud.com/courses/shell-scripts-for-beginners/'},
+                {'name': 'Bash Beginner', 'url': 'https://kodekloud.com/courses/shell-scripts-for-beginners/'},
                 {'name': 'Bash Advanced', 'url': 'https://kodekloud.com/courses/advanced-bash-scripting/'},
             ],
             'Python Scripting': [
-                {'name': 'Python Beginners', 'url': 'https://kodekloud.com/courses/python-basics/'},
+                {'name': 'Python Beginner', 'url': 'https://kodekloud.com/courses/python-basics/'},
                 {'name': 'Python Advanced', 'url': 'https://kodekloud.com/courses/certified-associate-in-python-programming/'},
+                {'name': 'Python 100 days', 'url': 'https://www.udemy.com/course/100-days-of-code/'},
             ],
             'Power Shell': [
                 {'name': 'Learn Power Shell', 'url': 'https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/'},
@@ -23,7 +24,7 @@ roadmap = {
         },
         '3-Containers': {
             'Docker': [
-                {'name': 'Docker Beginners', 'url': 'https://kodekloud.com/courses/docker-for-the-absolute-beginner/'},
+                {'name': 'Docker Beginner', 'url': 'https://kodekloud.com/courses/docker-for-the-absolute-beginner/'},
                 {'name': 'Docker Advanced', 'url': 'https://kodekloud.com/courses/docker-certified-associate-exam-course/'},
             ],
         },
