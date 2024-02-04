@@ -6,20 +6,18 @@ roadmap = {
             ],
             'Windows': [
                 {'name': 'Windows Server', 'url': 'https://www.udemy.com/course/windows-server-2019-administration-h/'},
+                {'name': 'Power Shell', 'url': 'https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/'},
             ],
         },
-        '2-Scripting': {
-            'Bash Scripting': [
+        '2-Bash and Python': {
+            'Bash': [
                 {'name': 'Bash Beginner', 'url': 'https://kodekloud.com/courses/shell-scripts-for-beginners/'},
                 {'name': 'Bash Advanced', 'url': 'https://kodekloud.com/courses/advanced-bash-scripting/'},
             ],
-            'Python Scripting': [
+            'Python': [
                 {'name': 'Python Beginner', 'url': 'https://kodekloud.com/courses/python-basics/'},
                 {'name': 'Python Advanced', 'url': 'https://kodekloud.com/courses/certified-associate-in-python-programming/'},
                 {'name': 'Python 100 days', 'url': 'https://www.udemy.com/course/100-days-of-code/'},
-            ],
-            'Power Shell': [
-                {'name': 'Learn Power Shell', 'url': 'https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/'},
             ],
         },
         '3-Containers': {
