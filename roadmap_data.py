@@ -8,7 +8,7 @@ roadmap = {
                 {'name': 'SSH', 'url': 'https://en.wikipedia.org/wiki/Secure_Shell'},
                 {'name': 'HTTP', 'url': 'https://en.wikipedia.org/wiki/HTTP'},
                 {'name': 'HTTPS', 'url': 'https://en.wikipedia.org/wiki/HTTPS'},
-                {'name': 'DNS', 'url': 'https://kodekloud.com/courses/python-basics/'},
+                {'name': 'DNS', 'url': 'https://en.wikipedia.org/wiki/Domain_Name_System'},
             ],
         },
         '2-Operating Systems': {
